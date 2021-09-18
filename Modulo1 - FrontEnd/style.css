@@ -1,5 +1,7 @@
-h1{
-    color: rgb(8, 200, 218);
-}
-main{
-}
+#teste{
+    position: relative;
+    height: 95vh;
+    width: 95vw;
+    background: url('img/financiamento.jpeg');
+    background-size: cover;
+  }
