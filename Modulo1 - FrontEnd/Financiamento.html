@@ -12,20 +12,20 @@
 
     </header>
     <main id="teste">
-        <div>
-            <form action="" method="get">
+        <div class="calculo">
+            <form action="">
                 <h1>Simulação de financiamento</h1>
                 <label for="iValor">Valor:</label>
                 <input name="iValor" type="text" id="iValor" value="200000"/>
                 <label for="iPrazoAnos">Prazo(anos):</label>
                 <input name="iPrazoAnos" type="text" id="iPrazoAnos" value="20"/>
                 <label for="dJurosAnos">Juros ao ano:</label>
-                <input name="dJurosAnos" type="number" id="dJurosAnos" value="0.8"><br/>
-                <button>Simular</button>
+                <input name="dJurosAnos" type="number" id="dJurosAnos" value="0.08"><br/>
+                <button class="button" type="button" onclick="Calcular()">Simular</button>
             </form>
         </div>
-        <div>
-            <form action="">
+        <div class="calculo">
+            <form>
                 <h2>Resultado</h2>
                 <label for="iPrazosMeses">Prazo(meses):</label>
                 <input name="iPrazosMeses" id="iPrazosMeses" type="text">
@@ -34,27 +34,16 @@
                 <label for="dJurosAcumulados">Juros Acumulados:</label>
                 <input name="dJurosAcumulados" id="dJurosAcumulados" type="text">
                 <br/>
-                <table>
+                <table class="table">
                     <tr>
-                        <th>Prestação</th>
-                        <th>Amortização</th>
-                        <th>Juros</th>
-                        <th>Total</th>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>833.33</td>
-                        <td>1258.33</td>
-                        <td>1500.00</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>833.33</td>
-                        <td>1258.33</td>
-                        <td>1500.00</td>
+                        <td>Prestação</td>
+                        <td>Amortização</td>
+                        <td>Juros</td>
+                        <td>Total</td>
                     </tr>
                 </table>
-            </form>
+                <button class="button">Limpar</button>
+                </form>
         </div>
     </main>
     <footer>
