@@ -1,4 +1,6 @@
-  
+  body{
+    background:rgb(129, 196, 235);
+  }
   h1{
     font: bold 40px arial, sans-serif;
   }
@@ -36,5 +38,9 @@
     margin-left: 25%;
     margin-top: 10px;
     font: bold 25px arial, sans-serif;
+    color: white;
 }
-
+tr{
+  padding: 10%;
+  width: 10%;
+}
